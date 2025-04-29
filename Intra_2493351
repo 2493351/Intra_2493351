@@ -1,0 +1,20 @@
+import pandas as pd
+# Define data_url explicitly
+# The URL points to a text file, so we can read it directly with pandas
+# Note: The URL points to a text file, so we can read it directly with pandas
+data_url = "https://raw.githubusercontent.com/2493351/Intra_2493351/main/weight-height.csv"
+# Read the data from the URL
+raw_df = pd.read_csv(data_url, sep=r"\s+", skiprows=1, header=None)
+# Ensure the cell defining data_url is executed before running this cell
+
+# Display the first few rows of the DataFrame
+raw_df.head()
+# Display the shape of the DataFrame
+print(f"Shape of the DataFrame: {raw_df.shape}")
+# Display the first few rows of the DataFrame
+raw_df.head()
+# Display the shape of the DataFrame
+print(f"Shape of the DataFrame: {raw_df.shape}")
+# Display the first few rows of the DataFrame
+raw_df.head()
+# Display the shape of the DataFrame
